@@ -68,15 +68,18 @@ div > hr {
 
 .main_list > li {
     font-weight: 900;
+    margin-bottom: 30px;
 }
 
 li {
-    margin-bottom: 30px;
+    margin-bottom: 17px;
     font-weight: 300;
+    list-style-type: none;
 }
 
 ul {
     margin-top: 11px;
+    list-style-type: none;
 }
 
 .editorial {
