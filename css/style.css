@@ -41,7 +41,7 @@ header > span {
 }
 
 button {
-    padding: 7px 7px;
+    padding: 7px 14px;
     border-radius: 4px;
 }
 
@@ -66,6 +66,10 @@ div > hr {
     margin-bottom: 20px;
 }
 
+.title {
+    font-size: 20px;
+}
+
 .main_list > li {
     font-weight: 900;
     margin-bottom: 30px;
@@ -85,10 +89,10 @@ ul {
 .editorial {
     background-color: rgb(127, 187, 255);
     width: 60px;
-    height: 25;
+    height: 25px;
     line-height: 25px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 11px;
     display: inline-block;
     color: white;
     font-size: 12px;
@@ -97,10 +101,10 @@ ul {
 .goals {
     background-color: rgb(180, 85, 243);
     width: 60px;
-    height: 25;
+    height: 25px;
     line-height: 25px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 11px;
     display: inline-block;
     color: white;
     font-size: 12px;
@@ -109,10 +113,10 @@ ul {
 .recruiting {
     background-color: #5da75d;
     width: 60px;
-    height: 25;
+    height: 25px;
     line-height: 25px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 11px;
     display: inline-block;
     color: white;
     font-size: 12px;
@@ -121,10 +125,10 @@ ul {
 .mobile {
     background-color: rgb(250, 168, 61);
     width: 60px;
-    height: 25;
+    height: 25px;
     line-height: 25px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 11px;
     display: inline-block;
     color: white;
     font-size: 12px;
@@ -133,10 +137,10 @@ ul {
 .website {
     background-color: rgb(250, 97, 250);
     width: 60px;
-    height: 25;
+    height: 25px;
     line-height: 25px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 11px;
     display: inline-block;
     color: white;
     font-size: 12px;
@@ -145,11 +149,35 @@ ul {
 .sales {
     background-color: rgb(107, 252, 88);
     width: 60px;
-    height: 25;
+    height: 25px;
     line-height: 25px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 11px;
     display: inline-block;
     color: white;
     font-size: 12px;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid green;
+    color: green;
+    margin-right: 10px;
+}
+
+.cross {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid red;
+    color: red;
+    margin-right: 10px;
 }
