@@ -78,3 +78,75 @@ li {
 ul {
     margin-top: 11px;
 }
+
+.editorial {
+    background-color: rgb(127, 187, 255);
+    width: 60px;
+    height: 25;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+}
+
+.goals {
+    background-color: rgb(180, 85, 243);
+    width: 60px;
+    height: 25;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+}
+
+.recruiting {
+    background-color: #5da75d;
+    width: 60px;
+    height: 25;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+}
+
+.mobile {
+    background-color: rgb(250, 168, 61);
+    width: 60px;
+    height: 25;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+}
+
+.website {
+    background-color: rgb(250, 97, 250);
+    width: 60px;
+    height: 25;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+}
+
+.sales {
+    background-color: rgb(107, 252, 88);
+    width: 60px;
+    height: 25;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+}
