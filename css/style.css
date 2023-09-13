@@ -39,6 +39,7 @@ header > span {
 }
 
 button {
+    font-family: inherit;
     padding: 7px 14px;
     border-radius: 4px;
 }
