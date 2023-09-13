@@ -13,14 +13,13 @@ header {
     background-color: white;
     font-weight: 900;
     font-size: 35px;
-    height: 75px;
-    line-height: 70px;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 15px;
 }
 
 header > img {
     vertical-align: middle;
-    margin-left: 15px;
-    margin-right: 1px;
 }
 
 header > span {
@@ -29,7 +28,6 @@ header > span {
 
 .big_white {
     width: 70%;
-    height: 800px;
     background-color: white;
     margin: 40px auto;
     border-radius: 10px;
@@ -37,7 +35,7 @@ header > span {
 
 .big_white > div {
     margin-left: 50px;
-    padding-top: 15px;
+    padding: 15px 0;
 }
 
 button {
@@ -62,8 +60,7 @@ div > hr {
     background-color: rgb(243, 248, 252);
     height: 2px;
     border-width: 0;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .title {
@@ -121,26 +118,22 @@ ul {
     background-color: rgb(107, 252, 88);
 }
 
-.check {
+.circle {
     width: 20px;
     height: 20px;
     line-height: 20px;
     text-align: center;
     border-radius: 50%;
     display: inline-block;
-    border: 1px solid green;
-    color: green;
     margin-right: 10px;
 }
 
+.check {
+    border: 1px solid green;
+    color: green;
+}
+
 .cross {
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    border-radius: 50%;
-    display: inline-block;
     border: 1px solid red;
     color: red;
-    margin-right: 10px;
 }
